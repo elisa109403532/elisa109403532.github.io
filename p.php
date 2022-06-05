@@ -1,4 +1,4 @@
 <?php
-            $f = $_GET['f'];
-            echo "document.write('".$f."');";
+$f = $_GET['f'];
+echo "document.write('".$f."');";
 ?>
