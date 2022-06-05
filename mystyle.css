@@ -1,0 +1,29 @@
+
+body {
+    font-size:24px;
+    padding:24px;
+    background-color:white;
+    color:blavk;
+}
+.dark {
+    background-color:black;
+    color:white;
+}
+div {
+    text-align:center;
+    margin:auto;
+    color:black;
+    font-size:48px;
+    color:#D0D0D0;
+}
+#rainbow {
+    height:64px;
+    background-image:linear-gradient(to right,rgba(30,144,255,0.5),rgba(0,0,255,0.9));
+}
+tbody{
+    background-color:  rgb(241, 183, 111);
+
+}
+tbody:hover{
+    background-color:rgb(126, 126, 218);
+}
