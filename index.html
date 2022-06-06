@@ -14,26 +14,27 @@
     </head>
     <body>
         
-        <button onclick="myFunction()">Change Mode</button>
-        <div id="rainbow">
+        <button onclick="myFunction()">Change Mode</button><!--整個body可以轉換成深色模式-->
+        <hr>
+        <div id="rainbow"><!--這行會變漸層色背景-->
             Elisa's personal instroduction
         </div>
         <table border="1">
-            <tbody>
+            <tbody><!--游標接觸會變顏色-->
             <tr>
-                <th colspan="2"><img src = "instro1.jpg" alt="我的照片" width="200" height="200"><h6>This is my profile</h6></th>
+                <th colspan="3"><!--游標靠近圖片會變大變不透明--><img src = "instro1.jpg" alt="我的照片" width="200" height="200"><h6>This is my profile</h6></th>
             </tr>
             <tr>
                 <th align="left">Name</th>
-                <td>Elisa Yu</td>
+                <td colspan="2">Elisa Yu</td>
             </tr>
             <tr>
                 <th align="left">Gender</th>
-                <td>G</td>
+                <td colspan="2">G</td>
             </tr>
             <tr>
                 <th align="left">Phone number</th>
-                <td>
+                <td colspan="2">
                     <ul>
                         <li>Home number:(03)9885-0145</li>
                         <li>Personal number:0956825859</li>
@@ -43,7 +44,7 @@
             </tr>
             <tr>
                 <th align="left">Address</th>
-                <td>
+                <td colspan="2">
                     新北市板橋區大同街龍翠里
                     <a href="https://www.google.com.tw/maps/place/220%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E5%A4%A7%E5%90%8C%E8%A1%97/@25.0274849,121.4762653,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a847ca04a565:0x6d0b3a6c3ef0b949!8m2!3d25.0274849!4d121.478454?hl=zh-TW">在google map開啟</a>
                 </td>
@@ -57,8 +58,9 @@
                         <li>國立臺灣師範大學附屬高級中學</li>
                         <li>國立中央大學資管系</li>
                     </ol>
-                </td>
-            </tr>
+                </td><!--圖片以橢圓形呈現-->
+                <td><img class ="style"src = "http://in.ncu.edu.tw/ncunet/upload/328_Image.jpg" alt="中央大學圖片" width="200" height="200"></td>
+            </tr><!--游標靠近圖片會變大變不透明-->
         </tbody>
         </table>
     </body>
