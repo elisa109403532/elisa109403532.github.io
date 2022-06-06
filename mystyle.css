@@ -27,3 +27,18 @@ tbody{
 tbody:hover{
     background-color:rgb(126, 126, 218);
 }
+img{
+    width:200px;
+    height:200px;
+    opacity:0.4;
+}
+img:hover{
+    width:260px;
+    height:260px;
+    opacity:1.0;
+}
+.style{
+    border-radius:50%;
+    max-width:100%;
+    height:auto;
+}
